@@ -45,7 +45,7 @@ body
     clip-path: circle(120px at center);
     transition: 0.5s;
 }
-.card .circle:hover:before
+.card:hover .circle::before
 {
     background-color: #0065c3;
     clip-path: circle(400px at center);
@@ -65,4 +65,10 @@ body
 {
     left: 72%;
     height: 500px;
+}
+.card .content
+{
+    position: relative;
+    width: 50%;
+    padding: 20px 20px 20px 40px;
 }
